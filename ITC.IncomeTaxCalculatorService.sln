@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITC.IncomeTaxCalculatorService.Api", "ITC.IncomeTaxCalculatorService.Api\ITC.IncomeTaxCalculatorService.Api.csproj", "{688691BE-48BD-4420-80C4-4136D8D6C3FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITC.IncomeTaxCalculatorService.ApplicationCore", "ITC.IncomeTaxCalculatorService.ApplicationCore\ITC.IncomeTaxCalculatorService.ApplicationCore.csproj", "{FD8E03B4-D046-4640-ACF6-71DCA05ADB55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{72D37902-57CE-4AC3-8502-306DB4F99927}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITC.IncomeTaxCalculatorService.Infrastructure", "ITC.IncomeTaxCalculatorService.Infrastructure\ITC.IncomeTaxCalculatorService.Infrastructure.csproj", "{ACDF4FD4-2A7C-4309-B622-31A0F26A333F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITC.IncomeTaxCalculatorService.ApplicationCore.Tests", "ITC.IncomeTaxCalculatorService.ApplicationCore.Tests\ITC.IncomeTaxCalculatorService.ApplicationCore.Tests.csproj", "{3A8B1C97-47D1-4678-A970-473531EAD20F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITC.IncomeTaxCalculatorService.Infrastructure.Tests", "ITC.IncomeTaxCalculatorService.Infrastructure.Tests\ITC.IncomeTaxCalculatorService.Infrastructure.Tests.csproj", "{6197C1D4-0014-4561-8413-2FCE30119108}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITC.IncomeTaxCalculatorService.Api.Tests", "ITC.IncomeTaxCalculatorService.Api.Tests\ITC.IncomeTaxCalculatorService.Api.Tests.csproj", "{D10FB213-9BDF-4A24-BBFC-93B3F55D3358}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{688691BE-48BD-4420-80C4-4136D8D6C3FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688691BE-48BD-4420-80C4-4136D8D6C3FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688691BE-48BD-4420-80C4-4136D8D6C3FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688691BE-48BD-4420-80C4-4136D8D6C3FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD8E03B4-D046-4640-ACF6-71DCA05ADB55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD8E03B4-D046-4640-ACF6-71DCA05ADB55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD8E03B4-D046-4640-ACF6-71DCA05ADB55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD8E03B4-D046-4640-ACF6-71DCA05ADB55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACDF4FD4-2A7C-4309-B622-31A0F26A333F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDF4FD4-2A7C-4309-B622-31A0F26A333F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDF4FD4-2A7C-4309-B622-31A0F26A333F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDF4FD4-2A7C-4309-B622-31A0F26A333F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A8B1C97-47D1-4678-A970-473531EAD20F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A8B1C97-47D1-4678-A970-473531EAD20F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A8B1C97-47D1-4678-A970-473531EAD20F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A8B1C97-47D1-4678-A970-473531EAD20F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6197C1D4-0014-4561-8413-2FCE30119108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6197C1D4-0014-4561-8413-2FCE30119108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6197C1D4-0014-4561-8413-2FCE30119108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6197C1D4-0014-4561-8413-2FCE30119108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D10FB213-9BDF-4A24-BBFC-93B3F55D3358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D10FB213-9BDF-4A24-BBFC-93B3F55D3358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D10FB213-9BDF-4A24-BBFC-93B3F55D3358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D10FB213-9BDF-4A24-BBFC-93B3F55D3358}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E14349A7-F8F3-4588-B83F-AF6E96E6135E}
+	EndGlobalSection
+EndGlobal
